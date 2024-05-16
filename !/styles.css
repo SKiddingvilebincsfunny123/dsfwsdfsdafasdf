@@ -1,10 +1,10 @@
 @font-face {
-    font-family: DPComicFont;
-    src: url('dpcomic.ttf') format('truetype');
+    font-family: Meow;
+    src: url('Meow.ttf') format('truetype');
   }
   
   body {
-    background-color: black;
+    background-color: blck;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,15 +14,15 @@
     overflow: hidden;
   }
   
-  .guts-text,
+  .Meow-text,
   .welcome-text,
   .btn {
     color: white;
-    font-family: DPComicFont, sans-serif;
+    font-family: Meow, sans-serif;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
   }
   
-  .guts-text {
+  .Meow-text {
     font-size: 50px;
     text-align: center;
   }
@@ -82,7 +82,7 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
-    font-family: DPComicFont, sans-serif;
+    font-family: Meow, sans-serif;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     font-size: 50px;
     cursor: pointer;
