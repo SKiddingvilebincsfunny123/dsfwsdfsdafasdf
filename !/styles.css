@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Meow;
-    src: url('Meow.ttf') format('truetype');
+    font-family: Mine;
+    src: url('Mine.ttf') format('truetype');
   }
   
   body {
@@ -14,15 +14,15 @@
     overflow: hidden;
   }
   
-  .Meow-text,
+  .Mine-text,
   .welcome-text,
   .btn {
     color: white;
-    font-family: Meow, sans-serif;
+    font-family: Mine, sans-serif;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
   }
   
-  .Meow-text {
+  .Mine-text {
     font-size: 50px;
     text-align: center;
   }
@@ -82,7 +82,7 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
-    font-family: Meow, sans-serif;
+    font-family: Mine, sans-serif;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     font-size: 50px;
     cursor: pointer;
